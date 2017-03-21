@@ -51,18 +51,23 @@ i,em{
     align-items: center;
 }
 .zby_Header .zby_Tuwe{
-    width:0.38rem;
-    height: 0.38rem;
+    width:0.4rem;
+    height: 0.4rem;
     border: 2px solid #FFFDFA;
     border-radius: 50%;
     background: #FF4843;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0.1rem;
 }
 .zby_Header .zby_Tuwe img{
     width:0.2rem;
     height:0.2rem;
+}
+.zby_Header .zby_img img{
+    width: 0.2rem;
+    height: 0.16rem;
 }
 .zby_Header .zby_Tox{
     width: 1.58rem;
