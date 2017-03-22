@@ -649,21 +649,21 @@ i,em{
 }
 .zby_boxtop{
     width: 100%;
-    height: 2.8rem;
+    height: 24%;
 }
 .zby_lun{
     display: block;
     width: 100%;
-    height: 7rem;
+    height: 100%;
     /*font-size: 0;*/
 }
-.zby_lun img{
+/*.zby_lun img{
     width: 100%;
     height: 100%;
-}
+}*/
 .zby_boxbotm{
     width: 100%;
-    height: 3.54rem;
+    height: 34%;
 }
 .swiper-pagination-bullet-active{
     opacity: 1;
@@ -684,14 +684,15 @@ i,em{
 .zby_center{
     text-align: center;
 }
-/*.swiper-container{*/
-    /**/
-/*}*/
-/*.zby_lun{*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /**/
-/*}  */
+.swiper-container,.swiper-container2,.swiper-container3{
+    width: 100%;
+    height: 46%;
+}
+.zby_lun{
+    width: 100%;
+    height: 100%;
+    
+}  
 /*我的图片详情结束*/
 
 /*分享开始*/
