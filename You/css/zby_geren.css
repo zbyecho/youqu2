@@ -421,7 +421,8 @@ i,em{
 }
 .zby_urlz1{
     background: url("../image/zby_21.png") no-repeat center center;
-    background-size: cover;
+    /*background-size: cover;*/
+      background-size: 0.84rem 0.24rem;
 }
 .zby_urlz2{
     background: url("../image/zby_36.png") no-repeat center center;
@@ -429,7 +430,8 @@ i,em{
 }
 .zby_urlz1{
     background: url("../image/zby_21.png") no-repeat center center;
-    background-size: cover;
+    /*background-size: cover;*/
+      background-size: 0.84rem 0.24rem;
 }
 .zby_Dtright .zby_Dbotbox .zby_Dbot{
     width: 0.84rem;
