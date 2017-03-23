@@ -16,45 +16,50 @@ zby_brtop.addEventListener('touchstart',function () {
         zby_Fbox.style.zIndex=-1;
     }
 });
-for(var i=0;i<zby_Dcontent.length;i++) {
-    zby_Dcontent[i].indexs=i;
-    touch.on(zby_Dcontent, 'doubletap', function (a) {
-        console.log(a);
-        for (var j = 0; j < zby_lunbo.length; j++) {
-            zby_lunbo[j].index=j;
-            zby_lunbo[j].classList.add("zby_hidden");
-            // console.log(j)
-        }
-        // zby_lunbo[index].classList.add("zby_hidden")
+// for(var i=0;i<zby_Dcontent.length;i++) {
+//     zby_Dcontent[i].indexs=i;
+//     touch.on(zby_Dcontent, 'doubletap', function (a) {
+//         console.log(a);
+//         for (var j = 0; j < zby_lunbo.length; j++) {
+//             zby_lunbo[j].index=j;
+//             zby_lunbo[j].classList.add("zby_hidden");
+//             console.log(j)
+//         }
+//         zby_lunbo[index].classList.add("zby_hidden")
+//
+//     });
+// }
+// 获取图片
+// var flag=false
 
-    });
-}
-获取图片
-var flag=false
 for(var i=0;i<zby_Dcontent.length;i++){
     zby_Dcontent[i].indexs=i;
-    zby_Dcontent[i].addEventListener('touchstart',function (a) {
-        start=a.timeStamp;
-        // console.log(start);
-        for (var j = 0; j < zby_lunbo.length; j++) {
-            zby_lunbo[j].index=j;
-            zby_lunbo[j].classList.add("zby_hidden");
-            // console.log(j)
-        }
-        zby_lunbo[index].classList.add("zby_hidden")
+    zby_Dcontent[i].addEventListener('touchstart',function () {
+        non=this.indexs;
+        var num=0;
+        Zbyt=setInterval(function () {
+            num++;
+            if(num==2){
+                // console.log(non);
+                for (var j = 0; j < zby_lunbo.length; j++) {
+                    // zby_lunbo[j].indexss=j
+                    zby_lunbo[j].classList.add("zby_hidden");
+                    // console.log(j)
+
+                }
+                zby_lunbo[non].classList.remove("zby_hidden")
+
+            }
+
+        },1000);
+
 
     });
-    zby_Dcontent[i].addEventListener('touchend',function (b) {
-        var  end=b.timeStamp;
 
-        if(end-start<200){
-           return flag=false
-        }
+    zby_Dcontent[i].addEventListener('touchend',function () {
+        clearInterval(Zbyt);
     });
     // console.log(start);
-
-
-
 }
 
 
