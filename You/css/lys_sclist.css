@@ -133,10 +133,10 @@ section{
 	background: url(../image/lys_8.jpg) center center/cover;
 }
 .lys_scE{
-	background: url(../image/lys_2.jpg) center center/cover;
+	background: url(../image/lys_s99.jpg) center center/cover;
 }
 .lys_scF{
-	background: url(../image/lys_3.jpg) center center/cover;
+	background: url(../image/lys_ss1.jpg) center center/cover;
 }
 .lys_box p{
 	font-size: 12px;
@@ -166,6 +166,10 @@ section{
     z-index: 666;
     overflow: hidden;
 }
+.lys_scmask_box img{
+	width: 100%;
+	height: 100%;
+}
 .lys_swiper_dian{
 	width: 100%;
 	height: 0.3rem;
@@ -181,12 +185,12 @@ section{
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
-	width: 200%;
+	width: 400%;
 	height: 100%;
 	box-sizing: content-box;
 }
 .lys_scmask_imgbox{
-		width: 50%;
+		width: 25%;
 		height: 7.36rem;
 		float: left;
        background: red;
@@ -651,7 +655,14 @@ section{
 	padding: 0rem 0.24rem;
 }
 .lys_ltico{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-top: -0.3rem;
 	margin-right: 0.38rem;
+}
+.lys_ltico img{
+	width: 0.6rem;
+	height: 0.6rem;
 }
 .lys_ltiput{
 	width: 42.8rem;

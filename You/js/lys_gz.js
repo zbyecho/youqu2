@@ -45,18 +45,25 @@ for (var i=0;i<lysFsyiimg.length;i++){
 			lysFssjli[j].style.background='#fff';
 		}
 	})
+	lysFsqx.addEventListener("touchstart",function(){
+		lysFsmask.style.left='100%';
+		for (var j=0;j<lysFssjli.length;j++){
+			lysFssjli[j].style.background='#fff';
+		}
+	})
 	
 }
-for (var i=0;i<lysFssjli.length;i++){
-	lysFssjli[i].index=i;
-	lysFssjli[i].addEventListener("touchstart",function(){
-		lysFssjli[this.index].style.background='#80D3FF';
-	})
-	// for (var j=0;j<lysFssjli.length;j++){
-	// 	lysFssjli[j].style.background='#fff';
-	//  }
+// for (var i=0;i<lysFssjli.length;i++){
+// 	lysFssjli[i].index=i;
+// 	lysFssjli[i].addEventListener("touchstart",function(){
+// 		lysFssjli[this.index].style.background='#80D3FF';
+// 	})
+// 	// for (var j=0;j<lysFssjli.length;j++){
+// 	// 	lysFssjli[j].style.background='#fff';
+// 	//  }
 
-}
+// }
+
 
 for (var i=0;i<lysFserimg.length;i++){
 	lysFserimg[i].ops=i;

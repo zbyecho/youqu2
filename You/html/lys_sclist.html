@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>收藏list</title>
+	<title>我的收藏</title>
 	<meta name="renderer" content="webkit"/>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
     <meta name = "viewport" content = "width = device-width, initial-scale = 1.0, maximum-scale = 1.0,user-scalable = 0" />
@@ -94,14 +94,26 @@
 
 <div class="swiper-container lys_scmask_box">
         <div class="lys_scmask_wrap swiper-wrapper">
-            <div class="lys_scmask_imgbox swiper-slide">Slide 1</div>
-            <div class="lys_scmask_imgbox swiper-slide">Slide 2</div>
+            <div class="lys_scmask_imgbox swiper-slide">
+            	<img src="../image/lys_2.jpg" alt="">
+            </div>
+            <div class="lys_scmask_imgbox swiper-slide">
+            	<img src="../image/lys_3.jpg" alt="">
+            </div>
+            <div class="lys_scmask_imgbox swiper-slide">
+            	<img src="../image/lys_s99.jpg" alt="">
+            </div>
+            <div class="lys_scmask_imgbox swiper-slide">
+            	<img src="../image/lys_ss1.jpg" alt="">
+            </div>
         </div>
         <!-- Add Pagination -->
         <!-- <div class="lys_swiper_bbox"> -->
         <div class="swiper-pagination lys_swiper_dian">
-        	<span class="swiper-pagination-bullet"></span>
         	<span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+        	<span class="swiper-pagination-bullet"></span>
+        	<span class="swiper-pagination-bullet"></span>
+        	<span class="swiper-pagination-bullet"></span>
         </div>
         <!-- </div> -->
     </div>
@@ -109,13 +121,9 @@
 	
 </div>
 <!-- 遮罩结束 -->
+<!-- <script src="../js/vue-touch.min.js"></script> -->
+<!-- <script src="../js/zepto.min.js"></script> -->
 <script src="../js/swiper.min.js"></script>
 <script src="../js/lys_sclist.js"></script>
-<script>
-   var lys_aa = new Swiper('.lys_scmask_box', {
-        pagination: '.lys_swiper_dian',
-        paginationClickable: true
-    });
-</script>
 </body>
 </html>
